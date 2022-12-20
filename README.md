@@ -1,7 +1,8 @@
 # Experimenting with hardware on raspberry pi
 
 ## What is this?
-Cross compiling to Raspberry pi 4 from Macbook Air M2
+* Cross compiling to Raspberry pi 4 from Macbook Air M2
+* Interacting with gpio
 
 ## Setup
 
@@ -24,5 +25,11 @@ target = "armv7-unknown-linux-musleabihf"
 [target.armv7-unknown-linux-musleabihf]
 linker = "arm-linux-gnueabihf-ld"
 ```
+
+### Resources
+
+* [Physical Computing With Rust](https://rahul-thakoor.github.io/physical-computing-rust/step_0.html)
+* https://sigmaris.info/blog/2019/02/cross-compiling-rust-on-mac-os-for-an-arm-linux-router/
+* https://medium.com/swlh/compiling-rust-for-raspberry-pi-arm-922b55dbb050
 
 
