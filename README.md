@@ -16,14 +16,14 @@ rustup target add armv7-unknown-linux-musleabihf
 brew install arm-linux-gnueabihf-binutils
 ```
 
-#### Add config
-In the file `.cargo/config` (that you might have to create):
+## Verify
 ```
-[build]
-target = "armv7-unknown-linux-musleabihf"
+cargo check
+```
 
-[target.armv7-unknown-linux-musleabihf]
-linker = "arm-linux-gnueabihf-ld"
+## Compile, deploy and run
+```
+./deploy.sh
 ```
 
 ### Resources
